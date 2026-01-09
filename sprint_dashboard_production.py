@@ -421,7 +421,7 @@ def update_main_chart(selected_developers, yaxis_range, show_clicks, hide_clicks
     elif show_clicks:
         visibility = True
     elif hide_clicks:
-        visibility = 'legendonly'
+        visibility = 'True'
     
     # Apply visibility to all traces
     for trace in fig.data:
