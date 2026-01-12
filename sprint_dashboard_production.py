@@ -24,7 +24,7 @@ def get_data_path():
     
     # Production path (same directory as script)
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    prod_path = os.path.join(script_dir, 'cw_finalfinal.xlsx')
+    prod_path = os.path.join(script_dir, 'dashboard.xlsx')
     if os.path.exists(prod_path):
         return prod_path
     
